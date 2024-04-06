@@ -26,6 +26,24 @@ body{
   font-style: normal;
 }
 
+.dropdown-hover:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-hover .dropdown-menu {
+  display: none;
+}
+.dropdown-menu {
+  background-color: rgba(0, 0, 0, 0.5); /* Postavite željenu providnost ovde */
+  backdrop-filter: blur(5px);
+}
+
+.dropdown-menu a {
+  color: #fff; /* Boja teksta unutar menija */
+}
+.dropdown-item.active, .dropdown-item:active {
+  background-color: #f9131ece;
+}
 
 .w-80{
   width: 80%;
