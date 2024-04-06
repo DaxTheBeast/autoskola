@@ -105,6 +105,10 @@ a i:hover{
   animation: bounceUpDown 1s infinite alternate;
 }
 
+.navbar-toggler{
+  margin-left: 10px;
+}
+
 @keyframes bounceUpDown {
   0% {
     transform: translateY(0);
