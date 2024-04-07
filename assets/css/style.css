@@ -230,7 +230,8 @@ hr {
 }
 
 .vh50{
-  height: 45vh;
+  align-items: center; /* centriranje vertikalno */
+  height: 100%; /* osigurava da se element popuni po visini */
 }
 
 .scene {
