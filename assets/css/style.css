@@ -211,6 +211,10 @@ hr {
   font-size: 46px;
 }
 
+.vh50{
+  height: 50vh;
+}
+
 .scene {
   width: 100%;
   height: 400px;
