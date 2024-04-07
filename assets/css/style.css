@@ -170,6 +170,7 @@ hr {
 }
 
 .card-sign2 {
+  height: 100%;
   background-image: url(../img/sign2.png);
   background-size: contain; /* Promenjeno u contain kako bi se slika uklopila unutar bloka */
   background-repeat: no-repeat; /* Da se slika ne ponavlja */
