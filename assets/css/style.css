@@ -176,13 +176,6 @@ hr {
   background-position:right;
 }
 
-.akcija{
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-  border-radius: 5px 0px 5px 0px;
-}
-
 /* CSS */
 .button-5{
   background-color: #fd3f3f !important;
