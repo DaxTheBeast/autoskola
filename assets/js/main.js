@@ -80,7 +80,7 @@ $(document).ready( function() {
     */
 
 
-    var countDownDate = new Date("May 1, 2024 00:00:00").getTime();
+    var countDownDate = new Date("Apr 30, 2024 00:00:00").getTime();
 
     // Update the count down every 1 second
     var x = setInterval(function() {
@@ -98,13 +98,13 @@ $(document).ready( function() {
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     // Display the result in the element with id="demo"
-    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-    + minutes + "m " + seconds + "s ";
+
+    document.getElementById("demo").innerHTML = `Akcija za prve polaznike traje još <span id="demo" class="sub-color"><b>${days}d ${hours}h ${minutes}m ${seconds}s</b></span>`;
 
     // If the count down is finished, write some text
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("demo").innerHTML = "ISTEKLO";
+        document.getElementById("demo").innerHTML = "<b>ISTEKLO</b>";
     }
     }, 1000);
 
