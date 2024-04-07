@@ -151,13 +151,29 @@ a i:hover{
   height: 90%;
 }
 
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
 
 #upis {
   background: rgb(255,0,0);
   background: linear-gradient(0deg, rgb(141, 41, 43) 0%, rgba(33, 37, 41,1) 100%);
 }
 
+.card-sign {
+  background-image: url(../img/sign.png);
+  background-size: contain; /* Promenjeno u contain kako bi se slika uklopila unutar bloka */
+  background-repeat: no-repeat; /* Da se slika ne ponavlja */
+  background-position:right;
+}
+
 /* CSS */
+.button-5{
+  background-color: #fd3f3f !important;
+}
+
 .button-6 {
   align-items: center;
   background-color: #FFFFFF;
