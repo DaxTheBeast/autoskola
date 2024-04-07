@@ -169,6 +169,13 @@ hr {
   background-position:right;
 }
 
+.card-sign2 {
+  background-image: url(../img/sign2.png);
+  background-size: contain; /* Promenjeno u contain kako bi se slika uklopila unutar bloka */
+  background-repeat: no-repeat; /* Da se slika ne ponavlja */
+  background-position:right;
+}
+
 /* CSS */
 .button-5{
   background-color: #fd3f3f !important;
