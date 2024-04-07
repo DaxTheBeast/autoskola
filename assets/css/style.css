@@ -48,6 +48,9 @@ body{
 .w-80{
   width: 80%;
 }
+.w-70{
+  width: 70%;
+}
 
 #return-to-top {
     position: fixed;
@@ -366,6 +369,10 @@ a i:hover{
 
 .mapa{
   align-items: center;
+}
+
+.o-nama{
+  text-align: justify;
 }
 
 .glow{
