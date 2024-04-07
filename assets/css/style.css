@@ -178,6 +178,10 @@ hr {
 }
 
 /* CSS */
+.p-height{
+  height: 47px;
+}
+
 .button-5{
   background-color: #fd3f3f !important;
 }
