@@ -177,6 +177,10 @@ hr {
   background-position:right;
 }
 
+.mt-6 {
+  margin-top: 4rem !important;
+}
+
 /* ROTATE CARD */
 
 .car-circle {
@@ -188,6 +192,7 @@ hr {
   left: 0; /* Dodali smo left na 0 da bi blok bio centriran po x osi */
   margin: auto; /* Koristimo margin:auto da bi centrirali blok */
   padding: 10px;
+  border: 5px solid white;
 }
 
 .car-circle i{
@@ -203,6 +208,8 @@ hr {
 
 .cardflip {
   border: 1px solid #270c13;
+  border-radius: 5px;
+  background-color: rgb(33, 37, 41);
   position: relative;
   width: 100%;
   height: 100%;
