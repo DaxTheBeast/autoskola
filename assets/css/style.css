@@ -181,7 +181,19 @@ hr {
   margin-top: 4rem !important;
 }
 
+.text-align{
+  text-align: justify !important;
+}
+
 /* ROTATE CARD */
+
+.card-rotate-sign{
+  position: absolute;
+  margin: auto;
+  right: 0px;
+  left: 0px;
+  bottom: 20px;
+}
 
 .car-circle {
   position: absolute;
@@ -204,6 +216,12 @@ hr {
   height: 400px;
   margin: 40px 0;
   perspective: 600px;
+}
+
+@media only screen and (max-width: 575px) {
+  .scene {
+    height: 500px;
+  }
 }
 
 .cardflip {
@@ -241,7 +259,9 @@ hr {
   transform: rotateY(180deg);
 }
 
-
+.card__face--back p{
+  font-size: 14px;
+}
 
 /* CSS */
 
