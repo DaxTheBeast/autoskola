@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $('.cardflip').click(function() {
+  $('.cardflip').mouseover(function() {
       $(this).toggleClass('is-flipped');
   });
 });
