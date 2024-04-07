@@ -224,7 +224,7 @@ hr {
 
 @media only screen and (max-width: 575px) {
   .scene {
-    height: 600px;
+    height: 500px;
   }
 }
 
@@ -259,7 +259,7 @@ hr {
 }
 
 .card__face--back {
-  
+  overflow-y: auto;
   transform: rotateY(180deg);
 }
 
